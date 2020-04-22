@@ -1,12 +1,21 @@
+#! /usr/bin/env node
+
+
 if(!process.argv[2] || process.argv[3]){
     console.error(`
 Missing argument!
-Usage: ${process.argv[1]} <nameOfTwitchUser>
+Usage: twitch-chat-electron-panel <nameOfTwitchUser>
 `);
     process.exit();
 }
 
 const {app, BrowserWindow} = require("electron");
+const path = require("path");
+if(!app){
+    const {status, stdout, stderr} = require("child_process").spawnSync(path.join(__dirname, "./node_modules/.bin/electron"), [__filename].concat(process.argv.slice(2)));
+    console.log(status, stdout.toString(), stderr.toString());
+    process.exit();
+}
 app.allowRendererProcessReuse = true;
 
 const url = "https://www.twitch.tv/popout/" + process.argv[2] + "/chat";
