@@ -1,0 +1,19 @@
+{
+  "name": "twitch-chat-panel",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/realprogrammer5000/twitch-chat-panel",
+  "keywords": [
+    "Electron",
+    "twitch"
+  ],
+  "author": "programmer5000",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.2.2"
+  }
+}
