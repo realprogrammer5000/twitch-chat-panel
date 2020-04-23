@@ -1,2 +1,4 @@
 # twitch-chat-panel
-A simple Electron app that shows a twitch chat panel for a specified user.
+A simple Electron app that shows a twitch chat panel for a specified user.  
+
+`npx twitch-chat-panel <nameOfTwitchUser`
