@@ -1,6 +1,6 @@
 {
   "name": "@programmer5000/twitch-chat-panel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple Electron app that shows a twitch chat panel for a specified user.",
   "main": "main.js",
   "scripts": {
@@ -16,7 +16,7 @@
   ],
   "author": "programmer5000",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "electron": "^8.2.2"
   }
 }
