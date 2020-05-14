@@ -48,6 +48,7 @@ function createWindow () {
     white-space: pre;
     line-height: 10px;
     right: 0;
+    color: #BBB;
 }
 `));
 }
