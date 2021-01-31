@@ -17,6 +17,6 @@
   "author": "programmer5000",
   "license": "MIT",
   "dependencies": {
-    "electron": "^8.2.2"
+    "electron": "^9.4.0"
   }
 }
